@@ -34,8 +34,8 @@ dependencies {
 
 publish {
     userOrg = 'agora'
-    groupId = 'io.agora.rtm'
-    artifactId = 'rtm-sdk'
-    publishVersion = (System.getenv("PUBLISH_SDK_VERSION") as String ?: '1.0.9')
+    groupId = 'io.agora'
+    artifactId = 'agora-rtm'
+    publishVersion = '1.0.1'
     desc = 'Agora IO'
 }
